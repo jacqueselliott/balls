@@ -35,6 +35,7 @@ AballsBall::AballsBall()
 	SpringArm->bEnableCameraLag = false;
 	SpringArm->CameraLagSpeed = 3.f;
 
+	// TODO: hack
 	SpringArmPtr = SpringArm;
 
 	// Create a camera and attach to boom
